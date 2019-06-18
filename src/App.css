@@ -23,6 +23,21 @@
   color: #61dafb;
 }
 
+html, body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #49729e;
+  background: linear-gradient(to right, rgb(2, 70, 160), rgb(138, 197, 236));
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
